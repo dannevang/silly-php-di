@@ -11,7 +11,7 @@ use DI\Container;
  */
 class Application extends \Silly\Application
 {
-    public function __construct($name = 'UNKNOWN', $version = 'UNKNOWN', Container $container = null)
+    public function __construct($name = 'UNKNOWN', $version = 'UNKNOWN', ?Container $container = null)
     {
         parent::__construct($name, $version);
 
